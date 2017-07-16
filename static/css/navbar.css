@@ -1,0 +1,114 @@
+body {margin:0;
+background-color: #F5F3EE;}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  order:1;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.topimage{
+
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+
+
+.newsblock{
+    margin:5px;
+
+}
+.newsfeed1{
+    background-color: #C1E1A6;
+    border-radius: 25px;
+    margin: 10px;
+    width: 95%;
+    height: 45%;
+
+}
+
+
+.newsfeed2{
+    background-color: #C1E1A6;
+    border-radius: 25px;
+    margin: 10px;
+    width: 95%;
+    height: 45%;
+}
+
+
+.w3-content{
+    display: flex;
+}
+.bottomone{
+    margin-top: 30px;
+    height: 300px;
+    background-color:#d3d3d3;
+}
+body{
+    order:-3
+    content: "";
+    height: 100%;
+  background-color: #BFD8D2;
+  opacity: 1.0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  display: flex;
+}
+
+.round{
+    border-radius: 25px;
+    text-align: center;
+}
+
+.leftLink{
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px;
+    background-color: #74AFAD;
+}
+
+.rightLink{
+    border-radius: 10px;
+    text-align: center;
+    margin: 40px;
+    background-color: #74AFAD;
+
+}
+
+.picbar{
+    background-color: #DBE2E8;
+    border-radius: 25px;
+    text-align: center;
+}
+
+p{
+overflow-wrap: break-word;
+}
