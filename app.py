@@ -87,6 +87,4 @@ def dbentry():
 
 
 if __name__ == "__main__":
-    app.secret_key = "I_AM_GREAT_AND_I_AM_HAVING_A_GREAT_TIME."
-    app.debug = True  # you dont to restart server again, if you change something.
     app.run(host='0.0.0.0', port=5000)
